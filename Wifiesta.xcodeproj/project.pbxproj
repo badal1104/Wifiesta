@@ -3,27 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		662B544A23DEEABB00316425 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662B544923DEEABB00316425 /* AppDelegate.swift */; };
 		662B544C23DEEABB00316425 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662B544B23DEEABB00316425 /* SceneDelegate.swift */; };
-		662B544E23DEEABB00316425 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662B544D23DEEABB00316425 /* ViewController.swift */; };
+		662B544E23DEEABB00316425 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662B544D23DEEABB00316425 /* HomeViewController.swift */; };
 		662B545123DEEABB00316425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662B544F23DEEABB00316425 /* Main.storyboard */; };
 		662B545323DEEABD00316425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662B545223DEEABD00316425 /* Assets.xcassets */; };
 		662B545623DEEABD00316425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662B545423DEEABD00316425 /* LaunchScreen.storyboard */; };
+		666796AB23E2FC600068A69B /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666796AA23E2FC600068A69B /* PlayerViewController.swift */; };
+		667E43B623F08EF500C742FB /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667E43B523F08EF500C742FB /* QuestionModel.swift */; };
+		667E43B823F08F1400C742FB /* AnswerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667E43B723F08F1400C742FB /* AnswerModel.swift */; };
+		667E43BA23F08F3700C742FB /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667E43B923F08F3700C742FB /* ChatModel.swift */; };
+		66B7F7F123DF77FE00DABAED /* WiFinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B7F7F023DF77FE00DABAED /* WiFinderViewController.swift */; };
+		66B7F7F323DF780E00DABAED /* WiBotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B7F7F223DF780E00DABAED /* WiBotViewController.swift */; };
+		66B7F7F523DF817500DABAED /* WifiestaConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B7F7F423DF817500DABAED /* WifiestaConstant.swift */; };
+		66B7F7F723DF819E00DABAED /* CommonUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B7F7F623DF819E00DABAED /* CommonUtility.swift */; };
+		66B7F7F923DF824A00DABAED /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B7F7F823DF824A00DABAED /* NetworkManager.swift */; };
+		66B7F7FB23DFD26600DABAED /* ArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B7F7FA23DFD26600DABAED /* ArtistModel.swift */; };
+		66B7F7FD23DFDFAD00DABAED /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B7F7FC23DFDFAD00DABAED /* ArtistTableViewCell.swift */; };
+		66E1C26923E70CA1005A9372 /* WiBotQuestions.json in Resources */ = {isa = PBXBuildFile; fileRef = 66E1C26823E70CA1005A9372 /* WiBotQuestions.json */; };
+		66E1C26B23E74774005A9372 /* WiBotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E1C26A23E74774005A9372 /* WiBotTableViewCell.swift */; };
+		66E1C26D23E7478F005A9372 /* WiUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E1C26C23E7478F005A9372 /* WiUserTableViewCell.swift */; };
+		66E1C27123E8AA2C005A9372 /* WiBotAnswers.json in Resources */ = {isa = PBXBuildFile; fileRef = 66E1C27023E8AA2C005A9372 /* WiBotAnswers.json */; };
+		A5EBE2ED284C608FB0555D4A /* Pods_Wifiesta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A94C684066F525A84C36B2 /* Pods_Wifiesta.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BC251FDF55CD03100EA61F7 /* Pods-Wifiesta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wifiesta.debug.xcconfig"; path = "Target Support Files/Pods-Wifiesta/Pods-Wifiesta.debug.xcconfig"; sourceTree = "<group>"; };
 		662B544623DEEABB00316425 /* Wifiesta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wifiesta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		662B544923DEEABB00316425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		662B544B23DEEABB00316425 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		662B544D23DEEABB00316425 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		662B544D23DEEABB00316425 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		662B545023DEEABB00316425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		662B545223DEEABD00316425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		662B545523DEEABD00316425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		662B545723DEEABD00316425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666796AA23E2FC600068A69B /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		667E43B523F08EF500C742FB /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		667E43B723F08F1400C742FB /* AnswerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerModel.swift; sourceTree = "<group>"; };
+		667E43B923F08F3700C742FB /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		66B7F7F023DF77FE00DABAED /* WiFinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFinderViewController.swift; sourceTree = "<group>"; };
+		66B7F7F223DF780E00DABAED /* WiBotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiBotViewController.swift; sourceTree = "<group>"; };
+		66B7F7F423DF817500DABAED /* WifiestaConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiestaConstant.swift; sourceTree = "<group>"; };
+		66B7F7F623DF819E00DABAED /* CommonUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtility.swift; sourceTree = "<group>"; };
+		66B7F7F823DF824A00DABAED /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		66B7F7FA23DFD26600DABAED /* ArtistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistModel.swift; sourceTree = "<group>"; };
+		66B7F7FC23DFDFAD00DABAED /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
+		66E1C26823E70CA1005A9372 /* WiBotQuestions.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = WiBotQuestions.json; sourceTree = "<group>"; };
+		66E1C26A23E74774005A9372 /* WiBotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiBotTableViewCell.swift; sourceTree = "<group>"; };
+		66E1C26C23E7478F005A9372 /* WiUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiUserTableViewCell.swift; sourceTree = "<group>"; };
+		66E1C27023E8AA2C005A9372 /* WiBotAnswers.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = WiBotAnswers.json; sourceTree = "<group>"; };
+		A1A94C684066F525A84C36B2 /* Pods_Wifiesta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wifiesta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED325A72BE61690B9C14EE4D /* Pods-Wifiesta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wifiesta.release.xcconfig"; path = "Target Support Files/Pods-Wifiesta/Pods-Wifiesta.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5EBE2ED284C608FB0555D4A /* Pods_Wifiesta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +77,8 @@
 			children = (
 				662B544823DEEABB00316425 /* Wifiesta */,
 				662B544723DEEABB00316425 /* Products */,
+				B0A6842101079FC69FB7BAF5 /* Pods */,
+				CC80CE961539E19D4EA486A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +95,93 @@
 			children = (
 				662B544923DEEABB00316425 /* AppDelegate.swift */,
 				662B544B23DEEABB00316425 /* SceneDelegate.swift */,
-				662B544D23DEEABB00316425 /* ViewController.swift */,
-				662B544F23DEEABB00316425 /* Main.storyboard */,
+				667E43B123F08D5800C742FB /* Helper */,
+				667E43B323F08DDC00C742FB /* NetworkManager */,
+				667E43B223F08DCC00C742FB /* View */,
+				667E43AF23F08C8200C742FB /* WifiestaModel */,
+				667E43B023F08CE200C742FB /* Controller */,
+				667E43B423F08E7900C742FB /* WifiestaFiles */,
 				662B545223DEEABD00316425 /* Assets.xcassets */,
-				662B545423DEEABD00316425 /* LaunchScreen.storyboard */,
 				662B545723DEEABD00316425 /* Info.plist */,
 			);
 			path = Wifiesta;
+			sourceTree = "<group>";
+		};
+		667E43AF23F08C8200C742FB /* WifiestaModel */ = {
+			isa = PBXGroup;
+			children = (
+				66B7F7FA23DFD26600DABAED /* ArtistModel.swift */,
+				667E43B523F08EF500C742FB /* QuestionModel.swift */,
+				667E43B723F08F1400C742FB /* AnswerModel.swift */,
+				667E43B923F08F3700C742FB /* ChatModel.swift */,
+			);
+			path = WifiestaModel;
+			sourceTree = "<group>";
+		};
+		667E43B023F08CE200C742FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				662B544D23DEEABB00316425 /* HomeViewController.swift */,
+				66B7F7F023DF77FE00DABAED /* WiFinderViewController.swift */,
+				66B7F7F223DF780E00DABAED /* WiBotViewController.swift */,
+				666796AA23E2FC600068A69B /* PlayerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		667E43B123F08D5800C742FB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				66B7F7F623DF819E00DABAED /* CommonUtility.swift */,
+				66B7F7F423DF817500DABAED /* WifiestaConstant.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		667E43B223F08DCC00C742FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66B7F7FC23DFDFAD00DABAED /* ArtistTableViewCell.swift */,
+				66E1C26A23E74774005A9372 /* WiBotTableViewCell.swift */,
+				66E1C26C23E7478F005A9372 /* WiUserTableViewCell.swift */,
+				662B544F23DEEABB00316425 /* Main.storyboard */,
+				662B545423DEEABD00316425 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		667E43B323F08DDC00C742FB /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				66B7F7F823DF824A00DABAED /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		667E43B423F08E7900C742FB /* WifiestaFiles */ = {
+			isa = PBXGroup;
+			children = (
+				66E1C26823E70CA1005A9372 /* WiBotQuestions.json */,
+				66E1C27023E8AA2C005A9372 /* WiBotAnswers.json */,
+			);
+			path = WifiestaFiles;
+			sourceTree = "<group>";
+		};
+		B0A6842101079FC69FB7BAF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BC251FDF55CD03100EA61F7 /* Pods-Wifiesta.debug.xcconfig */,
+				ED325A72BE61690B9C14EE4D /* Pods-Wifiesta.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC80CE961539E19D4EA486A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1A94C684066F525A84C36B2 /* Pods_Wifiesta.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 662B545A23DEEABD00316425 /* Build configuration list for PBXNativeTarget "Wifiesta" */;
 			buildPhases = (
+				AE742EC66F6B95C00CB6C52F /* [CP] Check Pods Manifest.lock */,
 				662B544223DEEABB00316425 /* Sources */,
 				662B544323DEEABB00316425 /* Frameworks */,
 				662B544423DEEABB00316425 /* Resources */,
+				D6F918CD076E116953D88F38 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +244,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66E1C26923E70CA1005A9372 /* WiBotQuestions.json in Resources */,
 				662B545623DEEABD00316425 /* LaunchScreen.storyboard in Resources */,
+				66E1C27123E8AA2C005A9372 /* WiBotAnswers.json in Resources */,
 				662B545323DEEABD00316425 /* Assets.xcassets in Resources */,
 				662B545123DEEABB00316425 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +254,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AE742EC66F6B95C00CB6C52F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wifiesta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6F918CD076E116953D88F38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wifiesta/Pods-Wifiesta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wifiesta/Pods-Wifiesta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wifiesta/Pods-Wifiesta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		662B544223DEEABB00316425 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				662B544E23DEEABB00316425 /* ViewController.swift in Sources */,
+				667E43B823F08F1400C742FB /* AnswerModel.swift in Sources */,
+				662B544E23DEEABB00316425 /* HomeViewController.swift in Sources */,
+				66B7F7F323DF780E00DABAED /* WiBotViewController.swift in Sources */,
+				66B7F7FD23DFDFAD00DABAED /* ArtistTableViewCell.swift in Sources */,
 				662B544A23DEEABB00316425 /* AppDelegate.swift in Sources */,
+				66B7F7F723DF819E00DABAED /* CommonUtility.swift in Sources */,
+				66B7F7FB23DFD26600DABAED /* ArtistModel.swift in Sources */,
+				66B7F7F923DF824A00DABAED /* NetworkManager.swift in Sources */,
+				667E43B623F08EF500C742FB /* QuestionModel.swift in Sources */,
+				66B7F7F523DF817500DABAED /* WifiestaConstant.swift in Sources */,
+				66E1C26D23E7478F005A9372 /* WiUserTableViewCell.swift in Sources */,
+				667E43BA23F08F3700C742FB /* ChatModel.swift in Sources */,
+				66B7F7F123DF77FE00DABAED /* WiFinderViewController.swift in Sources */,
+				666796AB23E2FC600068A69B /* PlayerViewController.swift in Sources */,
 				662B544C23DEEABB00316425 /* SceneDelegate.swift in Sources */,
+				66E1C26B23E74774005A9372 /* WiBotTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,35 +458,45 @@
 		};
 		662B545B23DEEABD00316425 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BC251FDF55CD03100EA61F7 /* Pods-Wifiesta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8PVH2NGH42;
 				INFOPLIST_FILE = Wifiesta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jio.Wifiesta;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.myjio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = MyJioDevelopment;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		662B545C23DEEABD00316425 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED325A72BE61690B9C14EE4D /* Pods-Wifiesta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8PVH2NGH42;
 				INFOPLIST_FILE = Wifiesta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jio.Wifiesta;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.myjio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = MyJioDevelopment;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

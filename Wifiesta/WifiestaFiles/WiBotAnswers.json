@@ -1,0 +1,29 @@
+{
+    "Answers": [{
+        "Id": "1",
+        "answer": "Hello"
+    }, {
+        "Id": "2",
+        "answer": "My name is WiBot and I am here to help you"
+    },{
+        "Id": "3",
+        "answer": "I've recently started learning to play the violin. My next door neighbour apparently likes the sound of it so much that last night he came round and smashed all my windows in, presumably so he can hear me more clearly....."
+    },{
+        "Id": "4",
+        "answer": "I was not assigned a gender"
+    },{
+        "Id": "5",
+        "answer": "Speaking for myself, I'm partial to all things apple"
+    },{
+        "Id": "6",
+        "answer": "Software doesn't usually get to choose one, but I'll say red. What's yours?"
+    },{
+        "Id": "998",
+        "answer": "Sorry! No result found of the image",
+        "messageType": "1"
+    },{
+        "Id": "999",
+        "answer": "Sorry, I'm not sure about that"
+    }]
+}
+

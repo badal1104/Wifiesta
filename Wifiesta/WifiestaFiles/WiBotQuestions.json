@@ -1,0 +1,23 @@
+{
+    "Questions": [{
+        "Id": "1",
+        "question": "Hi"
+    }, {
+        "Id": "2",
+        "question": "What is your name"
+    },{
+        "Id": "3",
+        "question": "Tell me a joke"
+    },{
+        "Id": "4",
+        "question": "Are you male or female"
+    },{
+        "Id": "5",
+        "question": "Which is better android or iOS"
+    },{
+        "Id": "6",
+        "question": "What is your favourite color"
+    }
+    ]
+}
+
