@@ -1,0 +1,23 @@
+
+Project details:-
+Tools - Xcode 11.2.1, MacBook Pro - 10.15 (Mac OS)
+Target - iOS 12.0 to Greater
+
+WiFinder
+1) Call iTunes media searcher api by using Alamofire and then decode the response into ArtistModel.
+2) Play Audio and Video by using AVPlayer.
+3) Show bouncing animation on selected artwork image.
+4) Set artworkUrl100 image, artistName, trackName and longDescription as per the document.
+5) Set messages on no internet, empty search bar text.
+6) Set default image when previewUrl is corrupt.
+
+WiBot
+1) Create Question & Answer json which contain 6 questions and their answers and 2 default answer one for no question match and other for image type message.
+2) Create question, answer and chat model.
+3) When user send the message to bot that message string will be search in question json and after successfully matching it get the question ID and then question ID filter the answer json to get the desired answer.
+4) User can send image via Photo library or by camera.
+
+Note: - 
+1) Support Portrait mode only.
+2) Used Storyboard and Autolayout.
+3) Used Alamofire Pod and run pod on your machine.
