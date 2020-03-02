@@ -80,7 +80,6 @@ class WiBotViewController: UIViewController {
         
         let optionMenu = UIAlertController(title: nil, message: "Choose option", preferredStyle: .actionSheet)
         let cameraOption = UIAlertAction(title: "Camera", style: .default) { (action) in
-            print("camera")
             self.openCamera() // Call open camera
         }
         let photoLibrary = UIAlertAction(title: "Photo Library", style: .default) { (action) in

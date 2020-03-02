@@ -38,7 +38,6 @@ class NetworkManager {
                 let decoder = JSONDecoder()
                 let model = try decoder.decode(ArtistModel.self, from:
                     response.data!) //Decode JSON Response Data
-                print(model )
                 completionBlock(model, .success)
             } catch let parsingError {
                 print("Error", parsingError)
