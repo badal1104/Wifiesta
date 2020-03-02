@@ -21,3 +21,4 @@ Note: -
 1) Support Portrait mode only.
 2) Used Storyboard and Autolayout.
 3) Used Alamofire Pod and run pod on your machine.
+4) Check Question and Answer json files under WifiestaFiles folder.
