@@ -14,6 +14,7 @@ class PlayerViewController: UIViewController {
     @IBOutlet weak var descriptionTextView: UITextView!
     var artistModel: ArtistSearchPayload?
     var mediaType: String?
+    var player: AVPlayer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,15 +22,31 @@ class PlayerViewController: UIViewController {
         setDescriptionText() // Load longDescription
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        NotificationCenter.default.addObserver(self, selector: #selector(pauseSongOnBackground), name: UIApplication.didEnterBackgroundNotification, object: nil) // Add Background notification observer
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        NotificationCenter.default.removeObserver(self, name: UIApplication.didEnterBackgroundNotification, object: nil)// Remove Background notification observer
+    }
+    
+    @objc func pauseSongOnBackground() { // Pause AVPlayer when app goes to background
+        if let avPlayer = player{
+            avPlayer.pause()
+        }
+    }
+    
     func createAndPlayAVPlayer() { // Create AVPlayer instance and play preview url
         if let previewUrlString = artistModel?.previewUrl, !previewUrlString.isEmpty{
             if let previewUrl = URL(string: previewUrlString){
-                let player = AVPlayer(url: previewUrl)
+                player = AVPlayer(url: previewUrl)
                 let playerFrame = playerView.frame
                 let playerViewController = AVPlayerViewController()
                 playerViewController.player = player
                 playerViewController.view.frame = CGRect(x: 0, y: 0, width: playerFrame.width, height: playerFrame.height)
-                player.play()
+                player?.play()
                 addChild(playerViewController)
                 playerView.addSubview(playerViewController.view)
                 playerViewController.didMove(toParent: self)

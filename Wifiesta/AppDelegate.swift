@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         return true
     }
+    func applicationDidEnterBackground(_ application: UIApplication) {
+       NotificationCenter.default.post(name: UIApplication.didEnterBackgroundNotification, object: nil)
+    }
 
     // MARK: UISceneSession Lifecycle
     @available(iOS 13.0, *)
