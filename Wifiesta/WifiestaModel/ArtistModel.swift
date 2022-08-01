@@ -2,7 +2,6 @@
 //  ArtistModel.swift
 //  Wifiesta
 //
-//  Created by Badal1 Yadav on 28/01/20.
 //  Copyright © 2020 Badal1 Yadav. All rights reserved.
 //
 
